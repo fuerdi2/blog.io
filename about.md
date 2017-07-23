@@ -40,7 +40,7 @@ header-img: "img/green.jpg"
 
 ###联系
 
-- [博客：fuerdi2.github.io](fuerdi2.github.io)
+- [博客：fuerdi2.github.io](https://fuerdi2.github.io)
 
 - 公众号：leftfans
 
