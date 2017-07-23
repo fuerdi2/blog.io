@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "About"
-description: "学苟知本，六经皆我注脚 "
+description: "科技改变社会，交通影响发展"
 header-img: "img/green.jpg"
 ---
 
@@ -10,62 +10,43 @@ header-img: "img/green.jpg"
     <p><img src="http://7xlfkx.com1.z0.glb.clouddn.com/white2.jpg" align="center"></p>
 </center>
 
-我是陈素封，每天千字践行者，践行时间：2014年02月10日至2015年02月23日，感谢这段经历，让我成为了现在的我。
-
-现在研习 **认知写作学** 。
+我是左津豪，毕业于上海海事大学，获得交通运输规划与管理专业学位。现代交通运输系统的高效运行离不开科学的管理与决策。在信息技术时代，新技术赋予了交通运输规划与管理新的思想与方法。这些新的思想与方法需要切实的被应用至交通运输各行各业。目前正在学习[《算法（第四版）》](https://book.douban.com/subject/19)
 
 ###坚信
 
-
-- 元认知乃一切之源
-- 学苟知本，六经皆我注脚 
-- 一切技能皆可习得，包括写作
-- 「持续」并不是坚持，写就是最好的回报
+- 科学的真理与简洁 
+- 肩负起社会进步的责任与使命
+- 「持续」并不是坚持，学习就是最好的回报
 
 
-###关注：
+###近期关注：
 
 
-- [元认知](http://www.mesule.com/)
-- 写作
-- Python
-- [阳志平](http://www.yangzhiping.com/)
-- [ZoomQuiet](http://blog.zoomquiet.io/)
+- [未来交通实验室](http://www.futuretransportlab.com/)
+- [城市计算](https://www.microsoft.com/en-us/research/project/%E5%9F%8E%E5%B8%82%E8%AE%A1%E7%AE%97/)
+- [Barabasi Albert Lab](https://www.barabasilab.com/)
+- [Northeastern Univeristy Network Science Institute](https://www.networkscienceinstitute.org/)
 
 
 
 
-###代表作：
+###成果：
 
-- [《24款最值得推荐的中文字体》](http://cnfeat.com/blog/2015/05/22/a-24-chinese-fonts/)
+- 左津豪 ，“Presenting Data of Transport Emissions on Baidu/Google Maps” ，第八届计算交通科学年会（CTS2016），中国武汉，2016.7.15
 
-- [《世界并非如你所见——用可供性来发现更大的世界》](http://cnfeat.com/blog/2015/05/01/affordance/)
+- 左津豪 ，“Modeling Virus Spreading on Passenger Aviation Networks with Random Times and Variable Rates of Infections and Cures”，第 十 六 届 海 外 华 人 交 通 协 会 （COTA） 国 际 交 通 科 技 年 会（CICTP2016），中国上海，2016.7.7
+- 左津豪 ， “Time Variant Passenger Flow Control for Peak Fraction of System Infected Optimization”, 上海海事大学学术新人创新项目论文，2016.6
 
-- [《如何正确地练习写作》](http://cnfeat.com/blog/2015/03/02/how-to-write/)
-
-
-###我的朋友们
-
-- [YiLee](http://yilee.me)
-- [Caos](http://caos.me)
-- [BuzhiNote](http://BuzhiNote.com)
-- [Azeril](http://azeril.me)
 
 ###联系
 
-- [博客：www.cnfeat.com](www.cnfeat.com)
+- [博客：fuerdi2.github.io](fuerdi2.github.io)
 
-- [微博@CnFeat](http://weibo.com/207775270)
-
-- [知乎@陈素封](http://www.zhihu.com/people/Feat)
-
-- [知乎专栏](http://zhuanlan.zhihu.com/cnfeat)
-
-- 公众号：cnfeat
+- 公众号：leftfans
 
 
 <center>
-    <p><img src="http://i173.photobucket.com/albums/w63/cnfeat/2015-08-29-2_zpsqj7po8eo.png" align="center"></p>
+    <p><img src="http://blogs.worldbank.org/trade/files/trade/Air%20transport%20network%20map.gif" align="center"></p>
 </center>
 
 
