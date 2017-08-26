@@ -44,6 +44,8 @@ header-img: "img/green.jpg"
 
 - 公众号：leftfans
 
+- Wechat: Versace_40
+
 
 <center>
     <p><img src="http://blogs.worldbank.org/trade/files/trade/Air%20transport%20network%20map.gif" align="center"></p>
