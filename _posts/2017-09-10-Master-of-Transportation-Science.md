@@ -11,7 +11,7 @@ description:
 
 ***
 
-** 核心课程**
+**核心课程**
 
 * 交通系统分析：表现与优化 *Transportation Systems Analysis: Performance and Optimization*
 * 交通系统分析：需求与经济学 *Transportation Systems Analysis: Demand and Economics*
