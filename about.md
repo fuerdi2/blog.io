@@ -14,14 +14,14 @@ header-img: "img/green.jpg"
 　　我是左津豪，毕业于上海海事大学，获得交通运输规划与管理专业硕士学位，现就职于深圳市交通中心。现代交通运输系统的高效运行离不开科学的管理与决策。在信息技术时代，新技术赋予了交通运输规划与管理新的思想与方法。这些新的思想与方法需要切实的被应用至交通运输各行各业。目前正在学习[《算法（第四版）》](https://book.douban.com/subject/19952400/)、[《Thinking in JAVA》](https://book.douban.com/subject/1474824/)。
 　　所有的文章均为原创或译改，如需要转载，请联系本人，并注明来源。
 
-###坚信
+### 坚信
 
 - 科学的真理与简洁 
 - 肩负起社会进步的责任与使命
 - 「持续」并不是坚持，学习就是最好的回报
 
 
-###近期关注：
+### 近期关注：
 
 
 - [未来交通实验室](http://www.futuretransportlab.com/)
@@ -32,7 +32,7 @@ header-img: "img/green.jpg"
 
 
 
-###成果：
+### 成果：
 
 - 左津豪 ，“Presenting Data of Transport Emissions on Baidu/Google Maps” ，第八届计算交通科学年会（CTS2016），中国武汉，2016.7.15
 
@@ -40,7 +40,7 @@ header-img: "img/green.jpg"
 - 左津豪 ， “Time Variant Passenger Flow Control for Peak Fraction of System Infected Optimization”, 上海海事大学学术新人创新项目论文，2016.6
 
 
-###联系
+### 联系
 
 - [博客：fuerdi2.github.io](https://fuerdi2.github.io)
 
