@@ -6,14 +6,13 @@ categories: blog
 tags: [专业知识]
 description: 
 ---
-# 高德/百度地图路段车流速率抓取 Speed Scraping in Amap/Baidu Map
 
 ## 整体思路
 
 百度地图和高德地图都提供了路径规划Web服务接口功能。该功能将用户输入的起点、终点经纬度坐标和路径规划方式（最短路，考虑路况的最短路等）等参数传入服务器，并在服务器中进行计算，最终返回以起终点经纬度所确定的路径的驾驶时耗以及路径长度等信息。根据路径长度及路径耗时信息，可以推断出某时刻下该路段上行车大致平均速率。
 
 
-##相关地图API
+## 相关地图API
 
 **批量算路服务API（百度地图）**
 
@@ -31,7 +30,7 @@ description:
 图2：高德地图路径规划服务示意图
 </center>
  
-##基础数据准备##
+## 基础数据准备
 
 ### 路网数据
 
@@ -49,12 +48,14 @@ description:
 <img src="https://fuerdi2.github.io/img/speedScraping/traffic_density.jpg" width = "50%">
 图3：异侧车道流密度不均
 </center>
+
 <center>
 <img src="https://fuerdi2.github.io/img/speedScraping/traffic_density2.jpg" width = "50%">
 图4：同侧车道流密度不均
 </center>
+
 人为的在一条道路上确定若干个采样点（sample point），对道路进行分段操作。
-</center>
+
 <center>
 <img src="https://fuerdi2.github.io/img/speedScraping/segment.jpg" width = "50%">
 图5：采样点及道路分段
@@ -88,7 +89,7 @@ description:
 通过Web请求，可以获得json/xml的路径规划数据。高德地图路径规划策略有多种，在这里我们选择路径最短策略（不考虑耗时）。
 通常需要设置一个长度差距阈值，来作为异常点判断的准则。一般来说，城市道路中交叉口最短间距离约为70米，根据采样点实际应用中的密度（相邻采样点间距为50米），综合给出阈值为70米。程序将路径长度与实际长度距离差距大于70米的路径点识别出来。
 <center>
-<img src="https://fuerdi2.github.io/img/speedScraping/CDJD.jpg" width = "50%">
+<img src="https://fuerdi2.github.io/img/speedScraping/CDJD.png" width = "50%">
 图8：长度关键词
 </center>
 
@@ -97,6 +98,6 @@ description:
 
 通过Web请求，可以获得json/xml的路径规划数据。高德地图路径规划策略有多种，在这里我们选择路径最短策略（不考虑耗时）。提取请求返回结果中导航指引信息，判断路径是否存在绕路现象。从返回结果可知，判断路径是否绕路的关键信息为：返回结果中包含词语“掉头”。
 <center>
-<img src="https://fuerdi2.github.io/img/speedScraping/LJPD.jpg" width = "50%">
+<img src="https://fuerdi2.github.io/img/speedScraping/LJPD.png" width = "50%">
 图9：路径关键词
 </center>
