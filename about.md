@@ -11,7 +11,7 @@ header-img: "img/green.jpg"
 </center>
 ### 简介
 
-　　我是左津豪，毕业于上海海事大学，获得交通运输规划与管理专业硕士学位，现就职于深圳市交通中心。现代交通运输系统的高效运行离不开科学的管理与决策。在信息技术时代，新技术赋予了交通运输规划与管理新的思想与方法。这些新的思想与方法需要切实的被应用至交通运输各行各业。目前正在学习[《算法（第四版）》](https://book.douban.com/subject/19952400/)、[《Thinking in JAVA》](https://book.douban.com/subject/1474824/)。
+　　我是左津豪，毕业于上海海事大学，获得交通运输规划与管理专业硕士学位，现就职于深圳市城市交通规划设计研究中心。现代交通运输系统的高效运行离不开科学的管理与决策。在信息技术时代，新技术赋予了交通运输规划与管理新的思想与方法。这些新的思想与方法需要切实的被应用至交通运输各行各业。目前正在学习[《算法（第四版）》](https://book.douban.com/subject/19952400/)、[《Thinking in JAVA》](https://book.douban.com/subject/1474824/)。
 　　所有的文章均为原创或译改，如需要转载，请联系本人，并注明来源。
 
 ### 坚信
@@ -37,6 +37,7 @@ header-img: "img/green.jpg"
 - 左津豪 ，“Presenting Data of Transport Emissions on Baidu/Google Maps” ，第八届计算交通科学年会（CTS2016），中国武汉，2016.7.15
 
 - 左津豪 ，“Modeling Virus Spreading on Passenger Aviation Networks with Random Times and Variable Rates of Infections and Cures”，第 十 六 届 海 外 华 人 交 通 协 会 （COTA） 国 际 交 通 科 技 年 会（CICTP2016），中国上海，2016.7.7
+
 - 左津豪 ， “Time Variant Passenger Flow Control for Peak Fraction of System Infected Optimization”, 上海海事大学学术新人创新项目论文，2016.6
 
 
