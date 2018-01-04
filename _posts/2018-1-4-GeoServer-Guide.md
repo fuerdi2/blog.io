@@ -86,7 +86,7 @@ GeoServer是 OpenGIS Web 服务器规范的 J2EE 实现，利用 GeoServer 可�
 
 11.确定，点击安装并完成安装
 <center>
-<img src="https://fuerdi2.github.io/img/GeoServer/win_reviewe.png" width="60%">
+<img src="https://fuerdi2.github.io/img/GeoServer/win_review.png" width="60%">
 点击安装
 </center>
 
@@ -204,6 +204,7 @@ GeoServer是 OpenGIS Web 服务器规范的 J2EE 实现，利用 GeoServer 可�
 <img src="https://fuerdi2.github.io/img/GeoServer/edit-publish.png" width="60%">
 选择样式
 </center>
+
 点击保存按钮，保存发布的图层。
 
 #### 预览发布的图层
@@ -264,25 +265,27 @@ STREETNETWORK表一览
 </center>
 
 点击配置新的SQL视图，进入SQL视图创建界面。
+
 现在考虑这样一个实际场景：给定一个TYPE值，在图层中显示出具有该TYPE值的所有要素。我们在SQL语句中引入一个参数名'TYPE_CODE'，并设置默认值：比如3。确认空间参考系SRID是否正确，若不正确则需要手动修改。
+
 <center>
 <img src="https://fuerdi2.github.io/img/GeoServer/sqlview-conf.png" width="60%">
 参数化视图配置
 </center>
+
 设置完成后点击保存。
 
-
-### 
-
 ## 样式
+
 图层中仅有线条还不够，你可能还想其能体现更多的信息，或者是让地图变得更加漂亮。这样，GeoServer的**样式**功能就发挥作用了。
 
 ### 样式文件说明
+
 GeoServer中支持多种样式格式：
 * Styled Layer Descriptor(SLD):OGC为地理信息系统制定的样式标准。
-* Cascading Style Sheets(CSS):CSS样式，需要[插件]()支持。
-* YSLD:类似于SLD样式，提高了安全新，需要[ysld插件]()支持。
-* MBStyle:基于json语法的样式，增强了兼容性，需要[mbstyle]()支持。
+* Cascading Style Sheets(CSS):CSS样式，需要[插件](http://docs.geoserver.org/latest/en/user/styling/css/index.html#css)支持。
+* YSLD:类似于SLD样式，提高了安全新，需要[ysld插件](http://docs.geoserver.org/latest/en/user/styling/ysld/index.html#ysld-styling)支持。
+* MBStyle:基于json语法的样式，增强了兼容性，需要[mbstyle](http://docs.geoserver.org/latest/en/user/styling/mbstyle/index.html#mbstyle-styling)支持。
 
 ### 颜色
 
@@ -401,7 +404,7 @@ GeoServer中支持多种样式格式：
 点击**图层**，选中之前发布的命名为street的图层，点击**发布**，将Default Style选定为COLOR，点击保存。再对该图层进行预览，发现样式已经生效
 
 <center>
-<img src="https://fuerdi2.github.io/img/GeoServer/previewing-layer.png" width="30%"><img src="https://fuerdi2.github.io/img/GeoServer/style-preview.png" width="30%">
+<img src="https://fuerdi2.github.io/img/GeoServer/previewing-layer.png" width="40%"><img src="https://fuerdi2.github.io/img/GeoServer/style-preview.png" width="40%">
 Before——After
 </center>
 
@@ -416,13 +419,8 @@ Before——After
 表示当比例尺大于1:273K时，该规则才起作用。相关的道路才会被绘制在地图中。
 
 <center>
-<img src="https://fuerdi2.github.io/img/GeoServer/scale-layer.png" width="30%"><img src="https://fuerdi2.github.io/img/GeoServer/scale-layer2.png" width="30%">
+<img src="https://fuerdi2.github.io/img/GeoServer/scale-layer.png" width="40%"><img src="https://fuerdi2.github.io/img/GeoServer/scale-layer2.png" width="40%">
 1:545K——1:273K
 </center>
 
-
-### 偏移
-
-### 
-
-## 缓存
+## 高性能缓存
