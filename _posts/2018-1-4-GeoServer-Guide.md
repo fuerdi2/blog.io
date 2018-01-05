@@ -425,4 +425,59 @@ Before——After
 1:545K——1:273K
 </center>
 
-## 高性能缓存
+## GeoWebCache
+
+GeoWebCache是运行在客户端与服务器之间的中间件。当地图客户端请求一张新地图和Tile时，GeoWebCache将拦截这些调用然后返回缓存过的Tiles。如果找不到缓存再调用服务器上的Tiles，从而提高地图展示的速度。实现更好的用户体验。
+
+GeoWebCache服务器拦截来至客户端的请求，判断本次请求的数据是否已经被缓存。如果请求数据已被缓存，则将这些缓存图片直接渲染至客户端；如果请求数据没有被缓存，则发送请求至WMS Server(提供网络地图服务的服务器)，由服务器处理请求数据，并返回给GeoWebCache服务器，GeoWebCache服务器进过渲染及缓存数据图片后绘制到客户端。
+
+### GeoWebCache设置
+
+从管理主页面可以找到GeoWebCache的设置入口
+
+<center>
+<img src="https://fuerdi2.github.io/img/GeoServer/caching-menu.png" width="60%">
+Tile Caching
+</center>
+
+### 切片图层
+
+切片图层（Tile Layers）页面列出了与GeoWebCache关联的所有图层。用户可以在此页面了解图层的缓存情况。
+
+*  **磁盘配额(Disk Quota)** 该图层允许使用的最大磁盘容量。默认为N/A，表示磁盘配额功能未开启，磁盘使用不受限制。
+*  **磁盘使用(Disk Used)** 该图层目前使用的磁盘容量。仅当磁盘配额功能开启时，才会显示磁盘使用量。
+*  **开启状态(Enabled)** 该图层是否开启缓存功能。
+*  **预览(Preview)** 类似于**图层预览**，该选项用来预览缓存切片。
+*  **预切片(Seed/Truncate)** 自动对图层进行切片
+
+### 预切片
+
+在实际业务应用中，使用地图缓存能够大大加快浏览器访问地图的速度。客户端在发起地图访问请求的时候，首先判断本地是否有该比例尺及位置下的地图切片缓存，若有，则直接从本地缓存中获取地图切片，若没有，则服务器向客户端返回所请求的切片。
+
+1.选中需要预切片的图层，点击**Seed/Truncate**，进入切片菜单
+
+<center>
+<img src="https://fuerdi2.github.io/img/GeoServer/seed-setting.png" width="60%">
+待切片选项
+</center>
+
+其中**Zoom start**和**Zoom stop**确定需要切片图层的最低与最大缩放等级，**Grid Set**为创建切片时所运用的投影类型。**Format**为切片图片格式。
+
+<center>
+<img src="https://fuerdi2.github.io/img/GeoServer/seed-setting.png" width="60%">
+待切片选项
+</center>
+
+点击**submit**，预切片任务开始启动。可以在任务执行状态栏中看到该任务的状态
+
+<center>
+<img src="https://fuerdi2.github.io/img/GeoServer/seeding-task.png" width="60%">
+待切片选项
+</center>
+
+等待切片任务完成后，打开图层切片存放目录，能够看到不同缩放等级下的png/jpg格式的切片。
+
+<center>
+<img src="https://fuerdi2.github.io/img/GeoServer/tile-folder.png" width="60%">
+待切片选项
+</center>
