@@ -40,6 +40,8 @@ header-img: "img/green.jpg"
 
 - 左津豪 ， “Time Variant Passenger Flow Control for Peak Fraction of System Infected Optimization”, 上海海事大学学术新人创新项目论文，2016.6
 
+- 左津豪 ， “基于开放数据的交通拥堵治理应用研究”, 2018中国城市交通规划年会，2018.8
+
 
 ### 联系
 
